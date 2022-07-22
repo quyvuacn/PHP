@@ -1,0 +1,62 @@
+.box{
+    width: 500px;
+    margin: 0 auto;
+}
+table{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: left;
+}
+th{
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.action{
+    text-align: center;
+}
+.action a{
+    color: #4178e0;
+}
+a+a{
+    margin-left: 12px;
+}
+.insert,button{
+    color: #000;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    background: #efefef;
+    padding: 6px;
+    border: 1px solid #666;
+    border-radius: 4px;
+}
+.form-insert{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    margin: 40px auto 40px auto;
+}
+h1 a{
+    float: right;
+    font-size: 16px;
+}
+form .err{
+    margin-top: 12px;
+    margin-bottom: 0px;
+    color: #ff2525;
+}
+.done{
+    color: #49b5f6;
+}
